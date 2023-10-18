@@ -1,4 +1,23 @@
-# Programmer julelys med Arduino og LEDs
+# Programmer julelys med Arduino og LEDs 🚦
+
+## 🌈 Kort beskrivelse av oppgaven
+
+Oppgaven baserer seg på en kobling mellom det å sette noe sammen selv og så se resultatet foran seg i real-time.
+
+🎯 Målet er erfaringen av det at prøving og feiling ikke er en skummel prosess. At ved å teste ulike kombinasjoner av input i koden eller hvor man setter en ledning på koblingsbrettet, resulterer i noe nytt og spennende, og hvis det ikke funker så er det noe som lett kan fikses!
+
+- Det blir utdelt PC'er med et ferdig nedlastet open-source script som får LED's (Light Emitting Diodes) til å blinke i en gitt rekkefølge, en Arduino (microcontroller), koblingsbrett, ledninger og LED's
+- Scriptet blir kjørt via Arduino IDE som er Arduino sitt eget open-source program, veldig ofte brukt til opplæring og er lett tilgjengelig.
+  > **Funfact:** Man får "Arduino Starter kits" til knappe 500kr, hvor alt du trenger til å gjøre feks. denne oppgaven hjemme, følger med!
+- Fra PCen laster vi så opp scriptet til Arduinoen, som er koblet til PCen med vanlig micro HDMI kabel (standard lader til feks. Samsung mobiler)
+- Etter scriptet er lastet opp til Arduinoen, vil den kjøre programmet kontinuerlig til en ny versjon er lastet opp. Så fort et script er lastet opp, kan Arduinoen kjøre det uten å være koblet til PC.
+- Nedenfor er det en "bruksanvisning/fasit" på hvordan de kan koble opp LED's på koblingsbrettet, basert på det ferdige scriptet, men etter dette er det fritt frem å prøve seg frem!
+  - Feks. hva skjer hvis vi kobler opp flere LED's på koblingsbrettet? 🤔
+    - Hvordan må man oppdatere scriptet som følge?
+    - Trenger vi flere komponenter?
+    - På hvilke porter og pin's skal de nye ledningene gå til?
+
+Til syvende og sist er dette en oppgave hvor man skal leke seg og utfordre nysgjerrigheten 🎨
 
 ![arduino](img/arduino.jpg)
 
@@ -17,6 +36,16 @@
 | Micro USB til USB kabel | For kobling mellom Arduino og PC | 1 stk |
 
 ## Greit å vite om komponenter og Arduino
+
+### Om Arduino og Arduino IDE
+
+Referanser:
+
+- [Arduino - Hjemmeside](https://www.arduino.cc/)
+- [Arduino IDE - Nedlastning fra hjemmeside](https://www.arduino.cc/en/software)
+- [Arduino IDE - Open-source GitHub repository](https://github.com/arduino/arduino-ide)
+
+### Om LEDs
 
 - En LED har to pin`s, en lang og en kort. Den lange er strøm-inn og den korte er strøm-ut.
 - På et breadboard/koblingsbrett finner du ytterst en rad markert med rød linje (+) og en rad markert med blå (-).
